@@ -1,0 +1,41 @@
+{
+  "audio": [
+    {
+      "src": "/src/assets/audio/specimen.mp3"
+    },
+    {
+      "src": "/src/assets/audio/japan.mp3",
+      "mediaElement": true
+    },
+    {
+      "src": "/src/assets/audio/liliburlero.mp3",
+      "mediaElement": true
+    }
+  ],
+  "graphics": [
+    {
+      "src": "/src/assets/graphics/specimen.jpg"
+    },
+    {
+      "src": "/src/assets/graphics/attack.png"
+    }
+  ],
+  "userInterface": [
+    {
+      "directory": "/src/userInterfaceComponents/welcome",
+      "sources": [
+        "/src/userInterfaceComponents/welcome/welcome.html",
+        "/src/userInterfaceComponents/welcome/welcome.css",
+        "/src/userInterfaceComponents/welcome/welcome.js"
+      ]
+    },
+    {
+      "directory": "/src/userInterfaceComponents/audio",
+      "sources": [
+        "/src/userInterfaceComponents/audio/audio.html",
+        "/src/userInterfaceComponents/audio/audio.css",
+        "/src/userInterfaceComponents/audio/audio.js"
+      ]
+    }
+  ]
+}

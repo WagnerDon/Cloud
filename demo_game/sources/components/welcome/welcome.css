@@ -1,0 +1,50 @@
+#start-loading {
+  cursor: pointer;
+  padding: 2rem;
+}
+
+.heading-loadingComponents {
+  font-size: 0.75rem;
+}
+
+#loading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 11rem;
+}
+
+.finishAnimation {
+  color: lime;
+}
+
+.loadAnimation {
+  color: rgb(204, 255, 0);
+  animation: rotate 1s linear infinite;
+  font-weight: bolder;
+}
+
+@keyframes rotate {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  height: 100%;
+}

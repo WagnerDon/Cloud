@@ -1,0 +1,11 @@
+.audio {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  padding: 0.3rem;
+}
+
+.audio>label {
+  font-size: 0.5rem;
+  color: white;
+}

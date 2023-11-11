@@ -1,0 +1,47 @@
+:root {
+  --ratio: calc(398 / 224);
+  --width: calc(100vh * var(--ratio));
+  --height: calc(100vw * 223 / 398);
+}
+
+* {
+  margin: unset;
+}
+
+html {
+  font-size: calc(var(--width) * 0.05);
+
+  cursor: default;
+
+  user-select: none;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  image-rendering: pixelated;
+
+  width: var(--width);
+  max-width: 100%;
+}
+
+.user-interface {
+  position: absolute;
+
+  aspect-ratio: var(--ratio);
+
+  width: var(--width);
+  max-width: 100%;
+}
+
+@media (max-aspect-ratio: 398 / 224) {
+  html {
+    font-size: calc((var(--height) * var(--ratio)) * 0.05);
+  }
+}
